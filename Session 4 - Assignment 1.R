@@ -7,4 +7,4 @@ merge(df1, df2, by = "CustId")
 ##2. Return all rows from both tables,
 merge(df1, df2, by = "CustId", all = TRUE)
 ##2.  join records from the left which have matching keys in the right table
-merge(df1, df2, by = "CustId")
+merge(df1, df2)
